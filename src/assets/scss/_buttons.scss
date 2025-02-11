@@ -1,0 +1,8 @@
+@use "sass:map";
+@use "./config" as *;
+
+@if map.get($modules, "buttons") {
+  #{$parent-selector} button {
+    background-color: aqua;
+  }
+}

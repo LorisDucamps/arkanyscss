@@ -1,0 +1,13 @@
+@use "sass:map";
+
+$modules: () !default;
+$parent-selector: "" !default;
+
+$modules: map.merge(
+  (
+    // Layout
+    "variables": true,
+    "buttons": true
+  ),
+  $modules
+);
