@@ -1,0 +1,4 @@
+// arkanys conditional version
+@use "index" with (
+  $parent-selector: ".arkanys"
+);
